@@ -34,6 +34,10 @@ li{
     flex: 1;
 }
 
+.container{
+    padding: 50px 0;
+}
+
 .row{
     width: 100%;
     max-width: 800px;
@@ -46,6 +50,10 @@ li{
 
 section:nth-child(even){
     background-color: #f8f8f8;
+}
+
+.section__title{
+   margin-bottom: 20px; 
 }
 
 /* NAVIGATION BAR */
@@ -158,4 +166,35 @@ nav {
 .about-me__img {
     width:100%;
     transform: scale(0.8);
+}
+
+/* TECH STACK */
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+    transition: all 300ms ease;
+}
+
+.language__img:hover{
+    filter: brightness(80%);
+    opacity: 0.86;
+    transform: scale(0.9);
+}
+
+.language {
+    width: 25%;
+}
+
+.language__img--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language__list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 25px 16px;
 }
