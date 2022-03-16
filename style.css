@@ -20,6 +20,10 @@ p {
 
 li{
     list-style-type: none;
+    margin: 0 12px;
+    text-decoration: none;
+    color:#242424;
+    font-weight: 700;
 }
 /* NAVIGATION BAR */
 
@@ -34,5 +38,5 @@ nav {
 }
 
 .nav__link--list {
-
+    display: flex;
 }
