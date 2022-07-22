@@ -1,7 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@font-face {
+    font-family: Kiona;
+    src: url(/assets/Fonts/Kiona-Regular.ttf);
+}
+
+@font-face {
+    font-family: Kiona-Itallic;
+    src: url(/assets/Fonts/Kiona-Itallic.ttf);
+}
 
 *{
-    font-family: 'Lato', sans-serif;
+    font-family: Kiona, sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -84,6 +92,14 @@ li{
 
 .text--purple{
     color: #1281EF;
+}
+
+.text--kiona{
+    font-family: Kiona;
+}
+
+.text--kiona--ital{
+    font-family: Kiona-Itallic;
 }
 
 section:nth-child(even){
@@ -198,7 +214,7 @@ nav {
 
 .about-me__info--para{
     font-size: 20px;
-    margin-bottom: 28px;
+    margin-bottom: 16px;
     animation: fade-up 650ms 600ms backwards;
 }
 
@@ -222,7 +238,7 @@ nav {
         transform: rotate(0);
     }
     50%{
-        transform: rotate(30deg);
+        transform: rotate(5deg);
     }
     100%{
         transform: rotate(0);
@@ -248,8 +264,9 @@ nav {
 }
 
 .about-me__img {
+    padding-right: 150px;
     width:100%;
-    transform: scale(0.8);
+    transform: scale(1);
     animation: fade-in 1200ms 800ms backwards;
 }
 
