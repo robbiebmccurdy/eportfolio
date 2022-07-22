@@ -1,11 +1,17 @@
 @font-face {
-    font-family: Kiona;
-    src: url(/assets/Fonts/Kiona-Regular.ttf);
+    font-family: 'Kiona';
+    src: url('assets/fonts/Kiona-Itallic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
 
 @font-face {
-    font-family: Kiona-Itallic;
-    src: url(/assets/Fonts/Kiona-Itallic.ttf);
+    font-family: 'Kiona';
+    src: url('assets/fonts/Kiona-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 *{
